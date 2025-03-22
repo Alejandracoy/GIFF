@@ -1,5 +1,7 @@
 .flowes{
-    
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
     background-color: #fae2bf;
     color: #000;
     border: none;
@@ -7,4 +9,13 @@
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
 }
